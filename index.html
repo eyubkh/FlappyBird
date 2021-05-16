@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="/img/favicon.ico"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Flappy Bird</title>
+    </head>
+    <body>
+        <main>
+            <canvas id="canvas"></canvas>
+            <div class="conteiner">
+                <button id="start">start</button>
+                <span id="score">0</span>
+
+                <div class="text">
+                    <p>Click for Jump</p>
+                    <svg id="svg" version="1.1" viewBox="0 0 27.944 37.249" xmlns="http://www.w3.org/2000/svg">
+                        <g transform="translate(-148.25 -51.451)">
+                         <g transform="translate(3.4921 5.0692)">
+                          <path class="click" d="m156.22 46.385 0.0345 12.552-11.481 0.01727v-2.5207s0.44888-10.256 11.447-10.048z" />
+                          <path d="m161.2 46.386-0.0347 12.608 11.533 0.01734v-2.532s-0.45089-10.301-11.498-10.093z" fill="#f5f5f5"/>
+                          <path d="m144.76 62.704 27.915-0.0192v10.252s-0.15004 2.2974-1.3797 4.6044c-1.5768 2.9582-4.7712 6.0894-10.024 6.0894-9.3497 0-5.3756-0.0192-5.3756-0.0192l-0.8116-4.27e-4s-1.4254-0.0756-3.1795-0.84304c-1.1778-0.51532-2.4888-1.4469-3.6716-2.4863-1.9125-1.6803-3.2779-4.6099-3.3848-7.0154-0.11024-2.4802-0.064-4.6876-0.0668-6.4348-5e-3 -2.5564-0.0208-4.1278-0.0208-4.1278z" fill="#f5f5f5"/>
+                         </g>
+                         <path d="m118.16 50.461-0.86092-0.48942-0.89124 0.43174 0.19943-0.97002-0.68602-0.7142 0.98417-0.11008 0.46726-0.87314 0.40882 0.90198 0.9748 0.17457-0.73151 0.66754z" fill="none" stroke-linecap="round" stroke-width="3"/>
+                        </g>
+                       </svg>
+                </div>
+
+                <div class="gameOver">
+                    <p>Game Over</p>
+                    <span id="scoreFinal">0</span>
+                </div>
+                   
+            </main>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
